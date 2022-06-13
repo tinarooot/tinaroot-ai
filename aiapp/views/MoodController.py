@@ -17,8 +17,10 @@ bp = Blueprint('mood', __name__)
 
 @bp.route('/v1/mood', methods=['POST'])
 def test():
+    """
+        情绪推理接口
+    """
     param = request.get_json()
-    print('get_json={}', param)
 
     txt = param.get('txt')
     if txt is None:
