@@ -38,6 +38,10 @@ def fail_response_msg(msg):
     return {"code": 100, "msg": msg}
 
 
+def missingParam():
+    return {"code": 100, "msg": '缺少必填写参数'}
+
+
 def fail_response_data(data):
     return {"code": 100, "msg": '请求失败', "data": data}
 
