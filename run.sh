@@ -1,0 +1,1 @@
+python command_manager.py master-start --port 8080
