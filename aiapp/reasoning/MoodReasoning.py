@@ -6,7 +6,7 @@
 """
 
 # 加载模型
-modelPath = "/Users/tina/PycharmProjects/机器学习/tinaroot-ai/aiapp/file/mood.kpl"
+modelPath = "/Users/tina/PycharmProjects/python/tinaroot-ai/aiapp/file/mood.kpl"
 
 from joblib import load
 from aiapp import setting
