@@ -10,8 +10,7 @@ import redis
 logger = setting.LogConfig.logger
 
 # Redis链接地址
-# HOST = "10.0.20.7"
-HOST = "tinaroot.cn"
+HOST = "10.0.20.7"
 # HOST = "127.0.0.1"
 PORT = "19763"
 PASSWORD = "Redis@1003"
